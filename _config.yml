@@ -18,7 +18,9 @@ email: thuang1020@163.com
 description: > # this means to ignore newlines until "baseurl:"
   不积跬步无以至千里,不积小流无以成江海
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# the base hostname & protocol for your site, e.g. http://example.com
+# jekyll-sitemap uses this to generate valid loc
+url: "https://runitao.github.io"
 #twitter_username: 
 github_username:  runitao
 
