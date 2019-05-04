@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "HDFS 集群调试"
+date:   2019-05-04 04:22:58 +0800
+categories: hadoop hdfs
+---
+
 # HDFS 集群调试
 
 在深入研究 Hadoop HDFS 细节时, 掌握如何配置日志系统和调试集群的技巧就是不可或缺的技能. 在这里面我要分享的是日志系统(log4j.properties)的设置, 调试 HDFS 客户端, NameNode 以及 DataNode 方法. 包括修改启动参数, 参数配置, 断点设置, 几个关键类的展示.
